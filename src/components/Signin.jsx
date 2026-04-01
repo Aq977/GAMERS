@@ -64,13 +64,13 @@ const handleSignin = async(e)=>{
               <input type="password" 
               placeholder='Enter Password'
               onChange={e=>setPassword(e.target.value)} 
-              className='form-control'/>
+              className='form-control'/><br/>
 
               {/* buttom */}
-              <input type="submit" value='signin' className='btn btn-danger' /><br /><br />
+              <input type="submit" value='signin' className='btn btn-danger ' /><br /><br />
 
               {/* incase someone does not have an account */}
-              <Link to='/signup' className='text-dark'>Don't have an account? Signup</Link>
+              <Link to='/signup' className='btn btn-danger'>Don't have an account? Signup</Link>
             </form>
         </div>
     </div>

@@ -59,7 +59,7 @@ const handleSubmit=async(e)=>{
                 <input type="email"
                   placeholder='Enter Email'
                   onChange={(e)=>setEmail(e.target.value)}
-                  className='Form-control' /><br/><br />
+                  className='form-control' /><br/><br />
 
                 <input type="tel" 
                   placeholder='Enter Phone Number'

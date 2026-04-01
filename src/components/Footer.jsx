@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-warning text-dark py-4">
+    <footer className="bg-dark text-primary py-4">
       <div className="container">
         <div className="row">
           
@@ -17,13 +17,24 @@ const Footer = () => {
 
           {/* Section 2 */}
           <div className="col-md-4 mb-3">
-            <h5>Quick Links</h5>
-            <ul className="list-unstyled">
-              <li><a href="/" className="text-light text-decoration-none">Signin</a></li>
-              <li><a href="/about" className="text-light text-decoration-none">Signup</a></li>
-              <li><a href="/services" className="text-light text-decoration-none">Add product</a></li>
-               <li><a href="/services" className="text-light text-decoration-none">Get product</a></li>
-            </ul>
+            <h5>Follow us on</h5>
+            <ul>
+            <img 
+            src="images/fb.png" 
+            alt="" 
+            height=''/>
+            <p>gamers254</p>
+
+            <img
+             src="images/in.png"
+             alt="" />
+             <p>gamers.center</p>
+
+             <img
+              src="images/x.png"
+               alt="" /> 
+               <p>Gamers_vibes</p> 
+               </ul>         
           </div>
 
           {/* Section 3 */}

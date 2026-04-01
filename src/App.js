@@ -19,7 +19,7 @@ function App() {
      </div>
      {/* linking routes */}
      <nav>
-    <Link to="/signin" className='btn btn-outline-danger ms-2'>Sigin</Link>
+    <Link to="/signin" className='btn btn-outline-danger ms-2'>Signin</Link>
     <Link to="/signup" className='btn btn-outline-danger ms-2'>Signup</Link>
     <Link to="/addproduct" className='btn btn-outline-danger ms-2'>Addproduct</Link>
     <Link to="/" className='btn btn-outline-danger ms-2'>Getproduct</Link>
@@ -30,10 +30,17 @@ function App() {
       <Route path='/signup'element={<Signup/>}/>
       <Route path='/addproduct'element={<Addproduct/>}/>
       <Route path='/'element={<Getproduct/>}/>
-     </Routes>
-     <Footer/>
+     </Routes><br /><br />
+      <form>
+      <input type="text" value='Leave a comment' className='p-4' /><br /><br /> 
+    </form>
+     <Footer/><br /><br />
+     
     </div>
     </Router>
+
+    
+   
   );
 }
 
